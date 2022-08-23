@@ -60,12 +60,13 @@ export default function Profile() {
               {""}Hire Me{""}
             </button>
             <a href="curtis.pdf" download="curtis otiende.pdf">
-              <button className=" btn highlighted-btn">Resume</button>
+              <button className="btn highlighted-btn">Resume</button>
             </a>
           </div>
         </div>
-        <div className="prof-image"></div>
-        <div className="prof-image-bg"></div>
+        <div className="prof-image">
+          <div className="prof-image-bg"></div>
+        </div>
       </div>
     </div>
   );

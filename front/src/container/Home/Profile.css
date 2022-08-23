@@ -43,3 +43,38 @@
   margin: 5px 0 0 0;
   font-family: "Poppins Light";
 }
+
+.prof-options .highlighted-btn {
+  margin: 0 0 0 30px;
+}
+.prof-options .highlighted-btn:hover {
+  margin: 0 0 0 30px;
+  background-color: cornsilk;
+  color: #111;
+}
+
+.prof-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 1px 0px 0px var(--white);
+  border-radius: 50%;
+  height: 385px;
+  width: 385px;
+  margin: 0px 0px 0px 100px;
+}
+
+.prof-image-bg {
+  height: 355px;
+  width: 355px;
+  background-image: url("../../assets/Home/profilephoto.png");
+  background-size: cover;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.prof-image-bg:hover {
+  transform: scale(1.1);
+  transition: 1s ease-out;
+}
