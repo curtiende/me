@@ -1,0 +1,45 @@
+.prof-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 10%;
+  min-height: fit-content;
+  background-image: url("../../assets/Home/bg.jpg");
+}
+
+.prof-parent {
+  display: flex;
+  text-align: center;
+  color: aliceblue;
+}
+
+.prof-details-name {
+  font-size: 23px;
+  font-family: "Poppins SemiBold";
+}
+
+.prof-details-role {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0 25px 0;
+}
+
+.prof-details-role h1 {
+  font-size: 40px;
+  font-family: cursive;
+}
+
+.primary-text {
+  color: (--white);
+}
+
+.highlighted-text {
+  color: (--dark-orange);
+}
+
+.prof-role-tag {
+  font-size: 20px;
+  margin: 5px 0 0 0;
+  font-family: "Poppins Light";
+}
